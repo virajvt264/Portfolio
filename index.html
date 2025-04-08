@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Viraj | Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Viraj | Engineer</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="assets/profile.png" alt="Profile Photo">
+    <h1>Hi, I'm Viraj</h1>
+    <p>Python Backend Developer | FastAPI | Django | Database</p>
+    <div class="cv-buttons">
+      <button id="view-cv">View CV</button>
+      <a href="assets/Viraj_Resume.pdf" download="Viraj_Resume.pdf"><button>Download CV</button></a>
+    </div>
+  </section>
+
+  <!-- CV Modal -->
+  <div id="cv-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe src="assets/Viraj_Resume.pdf" width="100%" height="600px"></iframe>
+    </div>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I’m a Python developer with experience in backend APIs, automation, and data-driven applications. Passionate about clean code and real-world problem-solving.</p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Django</li>
+      <li>FastAPI</li>
+      <li>MySQL</li>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Employee Attendance System</h3>
+      <p>Developed a face recognition-based attendance system using FastAPI and OpenCV.</p>
+    </div>
+    <div class="project">
+      <h3>E-commerce Website</h3>
+      <p>Created a fruit shop website using Django with authentication, cart, and admin panel.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Viraj Tukarul | Python Developer</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
